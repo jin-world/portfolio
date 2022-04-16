@@ -75,7 +75,7 @@ a {
 
 #about {
   width: 100%;
-  padding: 200px 0px;
+  padding: 180px 0px;
   position: relative; }
   #about .about_inner {
     max-width: 1440px;
@@ -85,11 +85,136 @@ a {
     #about .about_inner .about_tit {
       text-align: center;
       color: #252525;
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: 800;
       font-family: 'Noto Sans', sans-serif;
-      letter-spacing: -1px;
-      text-shadow: 9px 8px 10px #ddd; }
+      letter-spacing: -1px; }
+    #about .about_inner .about_wrap {
+      padding: 70px 0 0 0;
+      display: flex;
+      justify-content: space-between; }
+      #about .about_inner .about_wrap .about_img {
+        position: relative;
+        width: 20vw;
+        height: 430px;
+        background-color: #eee; }
+      #about .about_inner .about_wrap .about_txt {
+        width: 52vw;
+        height: 430px;
+        background-color: #eee; }
+
+#skill {
+  position: relative;
+  background-color: #fafafa;
+  padding: 180px 0px; }
+  #skill .skill_inner {
+    padding: 0 250px; }
+    #skill .skill_inner .skill-category-container {
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      border-bottom: 1px solid #ddd; }
+      #skill .skill_inner .skill-category-container .skill_title {
+        float: left;
+        margin-right: 200px;
+        color: #333;
+        font-weight: 600;
+        text-align: right;
+        font-size: 45px;
+        line-height: 1.6;
+        letter-spacing: -0.5px; }
+      #skill .skill_inner .skill-category-container .skill_list {
+        float: right; }
+        #skill .skill_inner .skill-category-container .skill_list .skill_list_item {
+          position: relative;
+          font-size: 19px;
+          line-height: 160%;
+          padding-left: 30px;
+          margin-top: 56px; }
+          #skill .skill_inner .skill-category-container .skill_list .skill_list_item .skill-list_name {
+            display: block;
+            margin-bottom: 12px;
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 700;
+            font-size: 22px; }
+          #skill .skill_inner .skill-category-container .skill_list .skill_list_item .skill-list_desc {
+            line-height: 1.68;
+            font-size: 98%;
+            letter-spacing: -.19px; }
+        #skill .skill_inner .skill-category-container .skill_list .skill_list_item:first-child {
+          margin-top: 0; }
+    #skill .skill_inner :last-child {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: 0; }
+    #skill .skill_inner ::after {
+      content: "";
+      display: block;
+      clear: both; }
+
+#webdesign {
+  position: relative;
+  background-color: #fff;
+  padding: 180px 0px; }
+  #webdesign .webdesign_inner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative; }
+    #webdesign .webdesign_inner .web_tit {
+      text-align: center;
+      color: #252525;
+      font-size: 2.2rem;
+      font-weight: 800;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: -1px; }
+    #webdesign .webdesign_inner .web_txt {
+      margin-top: 5px;
+      color: #afafaf;
+      text-align: center;
+      font-size: 1.124rem;
+      font-weight: 600;
+      font-family: 'Noto Sans', sans-serif; }
+
+#webpublisher {
+  position: relative;
+  background-color: #fff;
+  padding: 180px 0px; }
+  #webpublisher .webpublisher_inner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative; }
+    #webpublisher .webpublisher_inner .pub_tit {
+      text-align: center;
+      color: #252525;
+      font-size: 2.2rem;
+      font-weight: 800;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: -1px; }
+    #webpublisher .webpublisher_inner .pub_txt {
+      margin-top: 5px;
+      color: #afafaf;
+      text-align: center;
+      font-size: 1.124rem;
+      font-weight: 600;
+      font-family: 'Noto Sans', sans-serif; }
+
+#contact {
+  position: relative;
+  background-color: #fff;
+  padding: 180px 0px; }
+  #contact .contact_inner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative; }
+    #contact .contact_inner .contact_tit {
+      text-align: center;
+      color: #252525;
+      font-size: 2.2rem;
+      font-weight: 800;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: -1px; }
 
 #navi {
   position: fixed;
