@@ -8,14 +8,22 @@ ul, ol, li {
 a {
   text-decoration: none; }
 
-#home {
+#visual {
   position: relative;
-  width: 100%;
-  background: hotpink; }
-  #home .home_inner {
+  height: 100vh;
+  min-height: 640px;
+  overflow: hidden;
+  background: #c0f0ff; }
+  #visual .visual_inner {
     position: relative;
+    z-index: 1;
     width: inherit;
-    max-width: 1600px;
-    margin: 0 auto; }
+    height: inherit;
+    max-width: 2560px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url("../img/sky.jpg");
+    background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
