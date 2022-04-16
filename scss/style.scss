@@ -1,12 +1,45 @@
 @charset "utf-8";
 @import "reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header {
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1920px;
+
+    .header_inner {
+        position: relative;
+        width: inherit;
+        height: inherit;
+        padding-left: 60px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .header_title {
+            font-size: 16px;
+            color: #141414;
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 600;
+            transform: rotate(y);
+        }
+
+        .header_logo {
+
+        }
+    }
+}
 
 #visual {
     position: relative;
     height: 100vh;
     min-height: 640px;
     overflow: hidden;
-    background: #c0f0ff;
+    background: #f8fdff;
 
     .visual_inner {
         position: relative;
@@ -15,9 +48,38 @@
         height: inherit;
         max-width: 2560px;
         margin: 0 auto;
-        background-size: cover;
-        background-position: 50%;
-        background-image: url("../img/sky.jpg");
-        background-repeat: no-repeat;
+        // background-size: cover;
+        // background-position: 50%;
+        // background-image: url("../img/sky.jpg");
+        // background-repeat: no-repeat;
+        .visual_content {
+            position: absolute;
+            top: 50%;
+            // left: 50%;
+            // transform: translateY(-20%);
+            margin-top: -20vh;
+            text-align: center;
+            width: 100%;   
+            
+            .visual_text {
+                font-size: 25px;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 600;
+                color: #272727;
+                letter-spacing: 25px;
+            }
+
+            .visual_logo {
+                margin: 22px auto 70px;
+            }
+
+            .visual_desc {
+                display: block;
+                font-family: 'Noto Sans', sans-serif;
+                color: #616161;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
     }
 }
