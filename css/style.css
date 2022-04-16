@@ -44,7 +44,7 @@ a {
   min-height: 640px;
   overflow: hidden;
   background-color: #1200aa;
-  background: url(../img/img10.jpg) no-repeat center;
+  background: url("../img/img10.jpg") no-repeat center;
   background-size: cover; }
   #visual .visual_inner {
     position: relative;
@@ -88,7 +88,8 @@ a {
       font-size: 2rem;
       font-weight: 800;
       font-family: 'Noto Sans', sans-serif;
-      letter-spacing: -1px; }
+      letter-spacing: -1px;
+      text-shadow: 9px 8px 10px #ddd; }
 
 #navi {
   position: fixed;
