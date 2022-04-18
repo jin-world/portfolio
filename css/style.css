@@ -736,5 +736,15 @@ scroll navi 영역
         height: 8px; }
       #navi li .on {
         height: 50px; } }
+/* 430px----------------------------------------------------------- */
+@media screen and (max-width: 430px) {
+  /* web_portfolio */
+  #webdesign .webdesign_inner .web_content > article .pic {
+    height: 180px; } }
+/* 350px----------------------------------------------------------- */
+@media screen and (max-width: 350px) {
+  /* web_portfolio */
+  #webdesign .webdesign_inner .web_content > article .pic {
+    height: 155px; } }
 
 /*# sourceMappingURL=style.css.map */
