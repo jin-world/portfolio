@@ -1,10 +1,20 @@
 @charset "utf-8";
 @import "reset.scss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
+@mixin cont_tit($align: center, $color: #252525, $fontsize: 2.2rem, $fontweight: 800, $fontfamily: "Noto Sans", $letter: -1px) {
+    text-align: $align;
+    color: $color;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+    font-family: $fontfamily;
+    letter-spacing: $letter;
+}
 
+/* -----------------------------------------------------------------
+header 영역
+-----------------------------------------------------------------*/
 #header {
     z-index: 200;
     position: fixed;
@@ -39,6 +49,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+visual 영역
+-----------------------------------------------------------------*/
 #visual {
     position: relative;
     width: 100%;
@@ -86,6 +99,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+about 영역
+-----------------------------------------------------------------*/
 #about {
     width: 100%;
     padding: 180px 0px;
@@ -98,12 +114,7 @@
         position: relative;
 
         .about_tit {
-            text-align: center;
-            color: #252525;
-            font-size: 2.2rem;
-            font-weight: 800;
-            font-family: 'Noto Sans', sans-serif;
-            letter-spacing: -1px;
+            @include cont_tit();
         }
 
         .about_wrap {
@@ -179,6 +190,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+skill 영역
+-----------------------------------------------------------------*/
 #skill {
     position: relative;
     background-color: #fafafa;
@@ -255,6 +269,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+design portfolio 영역
+-----------------------------------------------------------------*/
 #webdesign {
     position: relative;
     background-color: #fff;
@@ -267,13 +284,7 @@
         position: relative;
 
         .web_tit {
-            text-align: center;
-            color: #252525;
-            font-size: 2.2rem;
-            font-weight: 800;
-            font-family: 'Noto Sans', sans-serif;
-            letter-spacing: -1px;
-            // text-shadow: 9px 8px 10px #ddd;
+            @include cont_tit();
         }
 
         .web_txt {
@@ -333,6 +344,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+web portfolio 영역
+-----------------------------------------------------------------*/
 #webpublisher {
     position: relative;
     background-color: #fff;
@@ -345,13 +359,7 @@
         position: relative;
 
         .pub_tit {
-            text-align: center;
-            color: #252525;
-            font-size: 2.2rem;
-            font-weight: 800;
-            font-family: 'Noto Sans', sans-serif;
-            letter-spacing: -1px;
-            // text-shadow: 9px 8px 10px #ddd;
+            @include cont_tit();
         }
 
         .pub_txt {
@@ -408,6 +416,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+contact 영역
+-----------------------------------------------------------------*/
 #contact {
     position: relative;
     background-color: #f0f0f0;
@@ -465,6 +476,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+footer 영역
+-----------------------------------------------------------------*/
 #footer {
     border: 1px solid #eee;
     padding-top: 28px;
@@ -479,6 +493,9 @@
     }
 }
 
+/* -----------------------------------------------------------------
+scroll navi 영역
+-----------------------------------------------------------------*/
 #navi {
     position: fixed;
     right: 50px;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
 * {
@@ -10,6 +11,9 @@ ul, ol, li {
 a {
   text-decoration: none; }
 
+/* -----------------------------------------------------------------
+header 영역
+-----------------------------------------------------------------*/
 #header {
   z-index: 200;
   position: fixed;
@@ -37,6 +41,9 @@ a {
       font-size: 14px;
       color: #dc5b5b; }
 
+/* -----------------------------------------------------------------
+visual 영역
+-----------------------------------------------------------------*/
 #visual {
   position: relative;
   width: 100%;
@@ -73,6 +80,9 @@ a {
         font-size: 16px;
         font-weight: 500; }
 
+/* -----------------------------------------------------------------
+about 영역
+-----------------------------------------------------------------*/
 #about {
   width: 100%;
   padding: 180px 0px;
@@ -87,7 +97,7 @@ a {
       color: #252525;
       font-size: 2.2rem;
       font-weight: 800;
-      font-family: 'Noto Sans', sans-serif;
+      font-family: "Noto Sans";
       letter-spacing: -1px; }
     #about .about_inner .about_wrap {
       padding: 70px 0 0 0;
@@ -137,6 +147,9 @@ a {
       display: block;
       clear: both; }
 
+/* -----------------------------------------------------------------
+skill 영역
+-----------------------------------------------------------------*/
 #skill {
   position: relative;
   background-color: #fafafa;
@@ -189,6 +202,9 @@ a {
       display: block;
       clear: both; }
 
+/* -----------------------------------------------------------------
+design portfolio 영역
+-----------------------------------------------------------------*/
 #webdesign {
   position: relative;
   background-color: #fff;
@@ -203,7 +219,7 @@ a {
       color: #252525;
       font-size: 2.2rem;
       font-weight: 800;
-      font-family: 'Noto Sans', sans-serif;
+      font-family: "Noto Sans";
       letter-spacing: -1px; }
     #webdesign .webdesign_inner .web_txt {
       margin-top: 5px;
@@ -245,6 +261,9 @@ a {
           background-color: #aa0000;
           color: #fff; }
 
+/* -----------------------------------------------------------------
+web portfolio 영역
+-----------------------------------------------------------------*/
 #webpublisher {
   position: relative;
   background-color: #fff;
@@ -259,7 +278,7 @@ a {
       color: #252525;
       font-size: 2.2rem;
       font-weight: 800;
-      font-family: 'Noto Sans', sans-serif;
+      font-family: "Noto Sans";
       letter-spacing: -1px; }
     #webpublisher .webpublisher_inner .pub_txt {
       margin-top: 5px;
@@ -298,6 +317,9 @@ a {
             background-color: #aa0000;
             color: #fff; }
 
+/* -----------------------------------------------------------------
+contact 영역
+-----------------------------------------------------------------*/
 #contact {
   position: relative;
   background-color: #f0f0f0;
@@ -340,6 +362,9 @@ a {
         font-weight: 400;
         color: #616161; }
 
+/* -----------------------------------------------------------------
+footer 영역
+-----------------------------------------------------------------*/
 #footer {
   border: 1px solid #eee;
   padding-top: 28px;
@@ -349,6 +374,9 @@ a {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
 
+/* -----------------------------------------------------------------
+scroll navi 영역
+-----------------------------------------------------------------*/
 #navi {
   position: fixed;
   right: 50px;
