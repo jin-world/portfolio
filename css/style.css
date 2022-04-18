@@ -44,7 +44,7 @@ a {
   min-height: 640px;
   overflow: hidden;
   background-color: #1200aa;
-  background: url("../img/img10.jpg") no-repeat center;
+  background: url("https://jin-world.github.io/portfolio/img/img10.jpg") no-repeat center;
   background-size: cover; }
   #visual .visual_inner {
     position: relative;
@@ -103,7 +103,7 @@ a {
         float: right; }
         #about .about_inner .about_wrap .about_txt .content-box {
           display: inline-block;
-          margin-bottom: 50px;
+          margin-bottom: 60px;
           font-family: 'Noto Sans', sans-serif; }
           #about .about_inner .about_wrap .about_txt .content-box h2 {
             margin-bottom: 22px;
@@ -126,7 +126,8 @@ a {
           margin-right: 6%; }
         #about .about_inner .about_wrap .about_txt :nth-of-type(3) {
           clear: both;
-          display: block; }
+          display: block;
+          margin-bottom: 0px; }
           #about .about_inner .about_wrap .about_txt :nth-of-type(3) p {
             width: 50%;
             line-height: 30px;
@@ -146,35 +147,39 @@ a {
       padding-bottom: 50px;
       margin-bottom: 50px;
       border-bottom: 1px solid #ddd; }
-      #skill .skill_inner .skill-category-container .skill_title {
+      #skill .skill_inner .skill-category-container .skill-row {
         float: left;
-        margin-right: 200px;
-        color: #333;
-        font-weight: 600;
-        text-align: right;
-        font-size: 45px;
-        line-height: 1.6;
-        letter-spacing: -0.5px; }
-      #skill .skill_inner .skill-category-container .skill_list {
-        float: right; }
-        #skill .skill_inner .skill-category-container .skill_list .skill_list_item {
-          position: relative;
-          font-size: 19px;
-          line-height: 160%;
-          padding-left: 30px;
-          margin-top: 56px; }
-          #skill .skill_inner .skill-category-container .skill_list .skill_list_item .skill-list_name {
-            display: block;
-            margin-bottom: 12px;
-            font-family: 'Noto Sans', sans-serif;
-            font-weight: 700;
-            font-size: 19px; }
-          #skill .skill_inner .skill-category-container .skill_list .skill_list_item .skill-list_desc {
-            line-height: 1.68;
-            font-size: 98%;
-            letter-spacing: -.19px; }
-        #skill .skill_inner .skill-category-container .skill_list .skill_list_item:first-child {
-          margin-top: 0; }
+        width: 100%; }
+        #skill .skill_inner .skill-category-container .skill-row .skill_title {
+          float: left;
+          width: 50%;
+          color: #333;
+          font-weight: 600;
+          text-align: left;
+          font-size: 45px;
+          line-height: 1.6;
+          letter-spacing: -0.5px; }
+        #skill .skill_inner .skill-category-container .skill-row .skill_list {
+          width: 50%;
+          float: right; }
+          #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item {
+            position: relative;
+            font-size: 19px;
+            line-height: 160%;
+            padding-left: 30px;
+            margin-top: 56px; }
+            #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item .skill-list_name {
+              display: block;
+              margin-bottom: 12px;
+              font-family: 'Noto Sans', sans-serif;
+              font-weight: 700;
+              font-size: 19px; }
+            #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item .skill-list_desc {
+              line-height: 1.68;
+              font-size: 98%;
+              letter-spacing: -.19px; }
+          #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item:first-child {
+            margin-top: 0; }
     #skill .skill_inner :last-child {
       padding-bottom: 0;
       margin-bottom: 0;
