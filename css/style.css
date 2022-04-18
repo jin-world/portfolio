@@ -494,6 +494,7 @@ scroll navi 영역
     #about .about_inner {
       width: 90%; }
       #about .about_inner .about_wrap .about_img {
+        width: 25vw;
         height: 40vh; }
         #about .about_inner .about_wrap .about_img img {
           width: 100%; }
