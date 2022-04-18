@@ -687,6 +687,11 @@ scroll navi 영역
       font-size: 13px; } }
 /* 539px----------------------------------------------------------- */
 @media screen and (max-width: 539px) {
+  /* visual */
+  #visual {
+    height: 45vh;
+    min-height: 270px; }
+
   /* about */
   #about .about_inner .about_wrap .about_img {
     height: 20vh; }
@@ -699,10 +704,12 @@ scroll navi 영역
     letter-spacing: -2px; }
 
   /* web_portfolio */
-  #webdesign .webdesign_inner .web_content > article .pic .web_pc {
-    display: none; }
-  #webdesign .webdesign_inner .web_content > article .pic .web_mobile {
-    display: block; }
+  #webdesign .webdesign_inner .web_content > article .pic {
+    height: 220px; }
+    #webdesign .webdesign_inner .web_content > article .pic .web_pc {
+      display: none; }
+    #webdesign .webdesign_inner .web_content > article .pic .web_mobile {
+      display: block; }
 
   /* contact */
   #contact {

@@ -1045,6 +1045,12 @@ scroll navi 영역
 
 /* 539px----------------------------------------------------------- */
 @media screen and (max-width:539px){
+    /* visual */
+    #visual {
+        height: 45vh;
+        min-height: 270px;
+    }
+
     /* about */    
     #about {
         .about_inner {
@@ -1079,6 +1085,8 @@ scroll navi 영역
             .web_content {
                 >article {
                     .pic {
+                        height: 220px;
+
                         .web_pc {display: none;}
                         .web_mobile {display: block;}
                     }
