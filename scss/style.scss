@@ -126,8 +126,6 @@ about 영역
                 width: 20vw;
                 height: 430px;
                 float: left;
-
-                .profile_m {display: none;}
             }
 
             .about_txt {
@@ -710,7 +708,6 @@ scroll navi 영역
     
             .about_wrap {
                 .about_img {
-                    width: 26vw;
                     height: 40vh;
 
                     img {
@@ -863,8 +860,7 @@ scroll navi 영역
 
             .about_wrap {
                 .about_img {
-                    width: 100%;
-                    height: 40vh;
+                    height: 30vh;
                     float: none;
                     overflow: hidden;
 
@@ -1054,8 +1050,7 @@ scroll navi 영역
         .about_inner {
             .about_wrap {
                 .about_img {
-                    .profile_pc {display: none;}
-                    .profile_m {display: block;}
+                    height: 20vh;
                 }
 
                 .about_txt {
