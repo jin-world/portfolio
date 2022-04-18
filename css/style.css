@@ -107,6 +107,8 @@ about 영역
         width: 20vw;
         height: 430px;
         float: left; }
+        #about .about_inner .about_wrap .about_img .profile_m {
+          display: none; }
       #about .about_inner .about_wrap .about_txt {
         width: 52vw;
         float: right; }
@@ -689,11 +691,39 @@ scroll navi 영역
       font-size: 13px; } }
 /* 539px----------------------------------------------------------- */
 @media screen and (max-width: 539px) {
+  /* about */
+  #about .about_inner .about_wrap .about_img .profile_pc {
+    display: none; }
+  #about .about_inner .about_wrap .about_img .profile_m {
+    display: block; }
+  #about .about_inner .about_wrap .about_txt .content-box h2 {
+    font-size: 1rem; }
+  #about .about_inner .about_wrap .about_txt .content-box .txt-box {
+    font-size: 15px; }
+  #about .about_inner .about_wrap .about_txt p {
+    font-size: 15px;
+    letter-spacing: -2px; }
+
   /* web_portfolio */
   #webdesign .webdesign_inner .web_content > article .pic .web_pc {
     display: none; }
   #webdesign .webdesign_inner .web_content > article .pic .web_mobile {
     display: block; }
+
+  /* contact */
+  #contact {
+    padding: 60px 0px; }
+    #contact .contact_inner {
+      max-width: 100%; }
+      #contact .contact_inner .contact_tit {
+        font-size: 1rem;
+        padding-left: 30px; }
+        #contact .contact_inner .contact_tit .contact_icon {
+          width: 32px; }
+      #contact .contact_inner .contact_info a {
+        font-size: 35px; }
+      #contact .contact_inner .contact_info .contact_txt {
+        font-size: 12px; }
 
   /* scrill navi */
   #navi {
