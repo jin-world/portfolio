@@ -91,17 +91,50 @@ a {
       letter-spacing: -1px; }
     #about .about_inner .about_wrap {
       padding: 70px 0 0 0;
-      display: flex;
-      justify-content: space-between; }
+      overflow: hidden; }
       #about .about_inner .about_wrap .about_img {
         position: relative;
         width: 20vw;
         height: 430px;
-        background-color: #eee; }
+        background-color: #eee;
+        float: left; }
       #about .about_inner .about_wrap .about_txt {
         width: 52vw;
-        height: 430px;
-        background-color: #eee; }
+        float: right; }
+        #about .about_inner .about_wrap .about_txt .content-box {
+          display: inline-block;
+          margin-bottom: 50px;
+          font-family: 'Noto Sans', sans-serif; }
+          #about .about_inner .about_wrap .about_txt .content-box h2 {
+            margin-bottom: 22px;
+            color: #333;
+            font-size: 1.4rem;
+            font-weight: 800;
+            text-transform: uppercase; }
+          #about .about_inner .about_wrap .about_txt .content-box .txt-box {
+            display: table;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: 400; }
+            #about .about_inner .about_wrap .about_txt .content-box .txt-box dt {
+              width: 120px;
+              font-weight: 700; }
+            #about .about_inner .about_wrap .about_txt .content-box .txt-box dd {
+              display: table-cell;
+              font-weight: 500; }
+        #about .about_inner .about_wrap .about_txt :nth-of-type(1) {
+          margin-right: 6%; }
+        #about .about_inner .about_wrap .about_txt :nth-of-type(3) {
+          clear: both;
+          display: block; }
+          #about .about_inner .about_wrap .about_txt :nth-of-type(3) p {
+            width: 50%;
+            line-height: 30px;
+            color: #333; }
+    #about .about_inner ::after {
+      content: "";
+      display: block;
+      clear: both; }
 
 #skill {
   position: relative;
@@ -174,6 +207,38 @@ a {
       font-size: 1.124rem;
       font-weight: 600;
       font-family: 'Noto Sans', sans-serif; }
+    #webdesign .webdesign_inner .web_content {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px; }
+      #webdesign .webdesign_inner .web_content > article {
+        width: 30%; }
+        #webdesign .webdesign_inner .web_content > article .pic {
+          width: 100%;
+          height: 220px;
+          background-color: #333;
+          margin-bottom: 20px;
+          border: 1px solid #c2c2c2; }
+          #webdesign .webdesign_inner .web_content > article .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+        #webdesign .webdesign_inner .web_content > article h2 {
+          font-size: 18px;
+          font-family: 'Noto Sans', sans-serif;
+          color: #555;
+          margin-bottom: 20px; }
+        #webdesign .webdesign_inner .web_content > article a {
+          display: inline-block;
+          width: 70px;
+          height: 27px;
+          border: 1px solid #aa0000;
+          text-align: center;
+          font: bold 12px/27px "Noto Sans";
+          color: #aa0000; }
+        #webdesign .webdesign_inner .web_content > article :hover {
+          background-color: #aa0000;
+          color: #fff; }
 
 #webpublisher {
   position: relative;
@@ -198,10 +263,39 @@ a {
       font-size: 1.124rem;
       font-weight: 600;
       font-family: 'Noto Sans', sans-serif; }
+    #webpublisher .webpublisher_inner .pub_content {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px; }
+      #webpublisher .webpublisher_inner .pub_content > article {
+        width: 100%; }
+        #webpublisher .webpublisher_inner .pub_content > article .pic {
+          width: 100%;
+          height: 280px;
+          background-color: #333;
+          margin-bottom: 20px; }
+          #webpublisher .webpublisher_inner .pub_content > article .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+        #webpublisher .webpublisher_inner .pub_content > article .btn {
+          display: flex;
+          justify-content: space-between; }
+          #webpublisher .webpublisher_inner .pub_content > article .btn a {
+            display: inline-block;
+            width: 49%;
+            height: 45px;
+            border: 1px solid #aa0000;
+            text-align: center;
+            font: bold 14px/45px "Noto Sans";
+            color: #aa0000; }
+          #webpublisher .webpublisher_inner .pub_content > article .btn :hover {
+            background-color: #aa0000;
+            color: #fff; }
 
 #contact {
   position: relative;
-  background-color: #fff;
+  background-color: #f0f0f0;
   padding: 180px 0px; }
   #contact .contact_inner {
     max-width: 1440px;
@@ -211,10 +305,44 @@ a {
     #contact .contact_inner .contact_tit {
       text-align: center;
       color: #252525;
-      font-size: 2.2rem;
-      font-weight: 800;
+      font-size: 1.6rem;
+      font-weight: 500;
       font-family: 'Noto Sans', sans-serif;
-      letter-spacing: -1px; }
+      letter-spacing: -1px;
+      text-shadow: 9px 8px 10px #ddd;
+      margin-bottom: 60px; }
+      #contact .contact_inner .contact_tit .contact_icon {
+        width: 48px;
+        animation: swing 2.5s infinite; }
+    #contact .contact_inner .contact_info {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 800; }
+      #contact .contact_inner .contact_info a {
+        display: block;
+        font-size: 82px;
+        font-weight: 500;
+        transition: all 0.3s;
+        font-family: 'Noto Sans', sans-serif;
+        color: inherit; }
+      #contact .contact_inner .contact_info :hover {
+        color: #aa0000;
+        transform: scale(0.95); }
+      #contact .contact_inner .contact_info .contact_txt {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #616161; }
+
+#footer {
+  border: 1px solid #eee;
+  padding-top: 28px;
+  padding-bottom: 26px; }
+  #footer .fusion-row > div {
+    color: #adadad;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
 
 #navi {
   position: fixed;
@@ -233,5 +361,19 @@ a {
     #navi li .on {
       background: #aa0000;
       height: 60px; }
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg); }
+  20% {
+    transform: rotate(13deg); }
+  24% {
+    transform: rotate(-13deg); }
+  28% {
+    transform: rotate(13deg); }
+  32% {
+    transform: rotate(-13deg); }
+  36% {
+    transform: rotate(0deg); } }
 
 /*# sourceMappingURL=style.css.map */
