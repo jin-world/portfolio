@@ -32,11 +32,11 @@ function activateBtn(scroll) {
     }
 }
 
-function moveScroll(el) {
-    var target = $(el).attr("href");
-    var targetPos = $(target).offset().top;
-
-    $("html, body").animate({
-        scrollTop: targetPos
-    }, speed);
-}
+$(window).scroll(function () {
+    var scrollTop = $(document).scrollTop();
+    if (scrollTop > 120) {
+        $("#wrapper").addClass("scroll");
+    } else {
+        $("#wrapper").removeClass("scroll");
+    }
+});
