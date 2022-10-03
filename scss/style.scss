@@ -54,11 +54,11 @@ header 영역
             float: right;
 
             ul {
-                :nth-of-type(1) {padding-left:0;}
-
                 li {
                      float: left;
                      width: 33.3%;
+                     
+                     :nth-of-type(1) {padding-left:0;}
     
                     a {
                          display: block;
@@ -130,7 +130,7 @@ visual 영역
                 font-weight: 300;
 
                 :nth-of-type(1) {margin-left: 0;}
-                
+
                 span {
                     display: inline-block;
                     padding: 10px 20px;

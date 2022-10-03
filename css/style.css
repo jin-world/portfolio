@@ -45,11 +45,11 @@ header 영역
           transition: all 0.3s; }
     #header .wrap nav {
       float: right; }
-      #header .wrap nav ul :nth-of-type(1) {
-        padding-left: 0; }
       #header .wrap nav ul li {
         float: left;
         width: 33.3%; }
+        #header .wrap nav ul li :nth-of-type(1) {
+          padding-left: 0; }
         #header .wrap nav ul li a {
           display: block;
           padding-left: 80px;
