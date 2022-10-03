@@ -57,7 +57,7 @@ visual 영역
   min-height: 640px;
   overflow: hidden;
   background-color: #1200aa;
-  background: url("https://jin-world.github.io/portfolio/img/main_bg.jpg") no-repeat center;
+  background: url("http://jin-world.github.io/portfolio/img/main_bg.jpg") no-repeat center;
   background-size: cover; }
   #visual .visual_inner {
     position: relative;
@@ -81,7 +81,7 @@ visual 영역
         margin: 22px auto 70px; }
       #visual .visual_inner .visual_content .visual_desc {
         display: block;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Pretendard-Regular', sans-serif;
         color: #7a7a7a;
         font-size: 16px;
         font-weight: 500; }
