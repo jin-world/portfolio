@@ -45,7 +45,7 @@ header 영역
           transition: all 0.3s; }
     #header .wrap nav {
       float: right; }
-      #header .wrap nav ul :nth-of-type(1) {
+      #header .wrap nav ul :nth-of-type(1) li {
         padding-left: 0; }
       #header .wrap nav ul li {
         float: left;
