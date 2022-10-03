@@ -57,24 +57,18 @@ header 영역
                      float: left;
                      width: 33.3%;
     
-                    :first-child {padding-left: 0px;}
-    
                     a {
                          display: block;
-                          padding-left: 80px;
+                         padding-left: 80px;
                          color: #fff;
                          font-weight: 500;
+                         font-size: 18px;
                     }
+                    
+                    :first-child {padding-left: 0px;}
                 }
             }
         }
-
-        ::after {
-             display: block;
-             content: "";
-             clear: both;
-        }
-        
     }
 }
 

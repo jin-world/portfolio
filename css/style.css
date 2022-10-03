@@ -48,17 +48,14 @@ header 영역
       #header .wrap nav ul li {
         float: left;
         width: 33.3%; }
-        #header .wrap nav ul li :first-child {
-          padding-left: 0px; }
         #header .wrap nav ul li a {
           display: block;
           padding-left: 80px;
           color: #fff;
-          font-weight: 500; }
-    #header .wrap ::after {
-      display: block;
-      content: "";
-      clear: both; }
+          font-weight: 500;
+          font-size: 18px; }
+        #header .wrap nav ul li :first-child {
+          padding-left: 0px; }
 
 /* -----------------------------------------------------------------
 visual 영역
