@@ -48,8 +48,8 @@ header 영역
       #header .wrap nav ul li {
         float: left;
         width: 33.3%; }
-        #header .wrap nav ul li :first-child {
-          padding-left: 0px; }
+        #header .wrap nav ul li :nth-of-type(1) {
+          padding-left: 0; }
         #header .wrap nav ul li a {
           display: block;
           padding-left: 80px;
@@ -106,7 +106,7 @@ visual 영역
           border: 1px solid rgba(255, 255, 255, 0.5);
           border-radius: 20px;
           margin-left: 20px; }
-          #visual .visual_inner .visual_content .tag span :first-child {
+          #visual .visual_inner .visual_content .tag span :nth-of-type(1) {
             margin-left: 0; }
 
 /* -----------------------------------------------------------------
