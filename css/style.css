@@ -17,6 +17,10 @@ a {
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
+/* 공통 */
+.ani {
+  transition: all 0.3s; }
+
 /* -----------------------------------------------------------------
 header 영역
 -----------------------------------------------------------------*/
@@ -35,6 +39,8 @@ header 영역
       float: left; }
       #header .wrap .logo a {
         display: block; }
+        #header .wrap .logo a .on {
+          display: none; }
         #header .wrap .logo a img {
           transition: all 0.3s; }
     #header .wrap .cb {
@@ -86,7 +92,9 @@ visual 영역
         color: #004ccf; }
       #visual .visual_inner .visual_content h3 {
         font-size: 65px;
-        padding: 50px 0 60px; }
+        padding: 50px 0 60px;
+        color: #fff;
+        font-weight: 300; }
         #visual .visual_inner .visual_content h3 #typed01 {
           display: inline-block; }
         #visual .visual_inner .visual_content h3 strong {
@@ -99,7 +107,10 @@ visual 영역
           display: inline-block;
           padding: 10px 20px;
           border: 1px solid rgba(255, 255, 255, 0.5);
-          border-radius: 20px; }
+          border-radius: 20px;
+          margin-left: 20px; }
+          #visual .visual_inner .visual_content .tag span :first-child {
+            margin-left: 0; }
 
 /* -----------------------------------------------------------------
 about 영역
