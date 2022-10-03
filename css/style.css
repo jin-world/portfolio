@@ -21,31 +21,38 @@ a {
 header 영역
 -----------------------------------------------------------------*/
 #header {
-  z-index: 200;
+  z-index: 100;
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   width: 100%;
-  max-width: 1920px; }
-  #header .header_inner {
+  padding: 35px 100px;
+  box-sizing: border-box; }
+  #header .wrap {
     position: relative;
-    width: inherit;
-    height: inherit;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between; }
-    #header .header_inner .header_title {
-      padding-left: 60px;
-      font-weight: 700;
-      letter-spacing: 1.2px;
-      font-size: 16px;
-      color: #dc5b5b; }
-    #header .header_inner .header_logo {
-      padding-right: 60px;
-      font-weight: 400;
-      font-size: 14px;
-      color: #dc5b5b; }
+    text-align: center; }
+    #header .wrap .logo {
+      float: left; }
+      #header .wrap .logo a {
+        display: block; }
+        #header .wrap .logo a img {
+          transition: all 0.3s; }
+    #header .wrap .cb {
+      float: right; }
+      #header .wrap .cb ul li {
+        float: left;
+        width: 33.3%; }
+        #header .wrap .cb ul li :first-child {
+          padding-left: 0px; }
+        #header .wrap .cb ul li a {
+          display: block;
+          padding-left: 80px;
+          color: #fff;
+          font-weight: 500; }
+      #header .wrap .cb ::after {
+        display: block;
+        content: "";
+        clear: both; }
 
 /* -----------------------------------------------------------------
 visual 영역
@@ -71,20 +78,25 @@ visual 영역
       top: 50%;
       margin-top: -15vh;
       text-align: center;
-      width: 100%; }
+      width: 100%;
+      font-family: 'Pretendard-Regular', sans-serif; }
       #visual .visual_inner .visual_content .visual_text {
         font-size: 30px;
-        font-family: 'Pretendard-Regular', sans-serif;
         font-weight: 500;
-        color: #eee; }
-      #visual .visual_inner .visual_content .visual_logo {
-        margin: 22px auto 70px; }
-      #visual .visual_inner .visual_content .visual_desc {
-        display: block;
-        font-family: 'Pretendard-Regular', sans-serif;
-        color: #7a7a7a;
+        color: #004ccf; }
+      #visual .visual_inner .visual_content .type01 {
+        font-size: 64px;
+        font-weight: 300;
+        color: #fff; }
+      #visual .visual_inner .visual_content .tag {
+        color: #fff;
         font-size: 16px;
-        font-weight: 500; }
+        font-weight: 300; }
+        #visual .visual_inner .visual_content .tag span {
+          display: inline-block;
+          padding: 10px 20px;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          border-radius: 20px; }
 
 /* -----------------------------------------------------------------
 about 영역

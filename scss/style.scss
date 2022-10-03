@@ -23,35 +23,52 @@
 header 영역
 -----------------------------------------------------------------*/
 #header {
-    z-index: 200;
+    z-index: 100;
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 100%;
-    max-width: 1920px;
+    padding: 35px 100px;
+    box-sizing: border-box;
 
-    .header_inner {
+    .wrap {
         position: relative;
-        width: inherit;
-        height: inherit;
-        margin-top: 60px;
-        display: flex;
-        justify-content: space-between;
+        text-align: center;
         
-        .header_title {
-            padding-left: 60px;
-            font-weight: 700;
-            letter-spacing: 1.2px;
-            font-size: 16px;
-            color: #dc5b5b;
+        .logo {
+            float: left;
+
+            a {
+                display: block;
+
+                img {transition: all 0.3s;}
+            }
         }
 
-        .header_logo {
-            padding-right: 60px;
-            font-weight: 400;
-            font-size: 14px;
-            color: #dc5b5b;
+        .cb {
+            float: right;
+
+            ul {
+                li {
+                    float: left;
+                    width: 33.3%;
+
+                    :first-child {padding-left: 0px;}
+
+                    a {
+                        display: block;
+                        padding-left: 80px;
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            ::after {
+                display: block;
+                content: "";
+                clear: both;
+            }
         }
     }
 }
@@ -84,24 +101,32 @@ visual 영역
             margin-top: -15vh;
             text-align: center;
             width: 100%;   
+            font-family: 'Pretendard-Regular', sans-serif;
             
             .visual_text {
                 font-size: 30px;
-                font-family: 'Pretendard-Regular', sans-serif;
                 font-weight: 500;
-                color: #eee;
+                color: #004ccf;
             }
 
-            .visual_logo {
-                margin: 22px auto 70px;
+            .type01 {
+                font-size: 64px;
+                font-weight: 300;
+                color: #fff;
+                // margin: 22px auto 70px;
             }
 
-            .visual_desc {
-                display: block;
-                font-family: 'Pretendard-Regular', sans-serif;
-                color: #7a7a7a;
+            .tag {
+                color: #fff;
                 font-size: 16px;
-                font-weight: 500;
+                font-weight: 300;
+
+                span {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid rgba(255,255,255,.5);
+                    border-radius: 20px;
+                }
             }
         }
     }
