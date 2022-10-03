@@ -55,6 +55,8 @@ header 영역
 
             ul {
                 li {
+                    :first-child {padding-left: 0px;}
+                    
                      float: left;
                      width: 33.3%;
     
@@ -66,8 +68,6 @@ header 영역
                          font-size: 18px;
                     }
                 }
-
-                :first-child {padding-left: 0px;}
             }
         }
     }
