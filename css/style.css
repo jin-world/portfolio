@@ -43,22 +43,22 @@ header 영역
           display: none; }
         #header .wrap .logo a img {
           transition: all 0.3s; }
-    #header .wrap .cb {
+    #header .wrap nav {
       float: right; }
-      #header .wrap .cb ul li {
+      #header .wrap nav ul li {
         float: left;
         width: 33.3%; }
-        #header .wrap .cb ul li :first-child {
+        #header .wrap nav ul li :first-child {
           padding-left: 0px; }
-        #header .wrap .cb ul li a {
+        #header .wrap nav ul li a {
           display: block;
           padding-left: 80px;
           color: #fff;
           font-weight: 500; }
-      #header .wrap .cb ::after {
-        display: block;
-        content: "";
-        clear: both; }
+    #header .wrap ::after {
+      display: block;
+      content: "";
+      clear: both; }
 
 /* -----------------------------------------------------------------
 visual 영역
@@ -87,8 +87,8 @@ visual 영역
       width: 100%;
       font-family: 'Pretendard-Regular', sans-serif; }
       #visual .visual_inner .visual_content .visual_text {
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 26px;
+        font-weight: 800;
         color: #004ccf; }
       #visual .visual_inner .visual_content h3 {
         font-size: 65px;
@@ -117,20 +117,19 @@ about 영역
 -----------------------------------------------------------------*/
 #about {
   width: 100%;
-  padding: 180px 0px;
+  padding: 150px 0px;
   position: relative; }
   #about .about_inner {
-    max-width: 1440px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     position: relative; }
     #about .about_inner .about_tit {
       text-align: center;
       color: #252525;
-      font-size: 2.2rem;
-      font-weight: 800;
-      font-family: "Noto Sans";
-      letter-spacing: -1px; }
+      font-size: 60px;
+      font-weight: 700;
+      font-family: "Pretendard-Regular"; }
     #about .about_inner .about_wrap {
       padding: 70px 0 0 0;
       overflow: hidden; }
@@ -248,10 +247,9 @@ design portfolio 영역
     #webdesign .webdesign_inner .web_tit {
       text-align: center;
       color: #252525;
-      font-size: 2.2rem;
-      font-weight: 800;
-      font-family: "Noto Sans";
-      letter-spacing: -1px; }
+      font-size: 60px;
+      font-weight: 700;
+      font-family: "Pretendard-Regular"; }
     #webdesign .webdesign_inner .web_txt {
       margin-top: 5px;
       color: #afafaf;
@@ -309,10 +307,9 @@ web portfolio 영역
     #webpublisher .webpublisher_inner .pub_tit {
       text-align: center;
       color: #252525;
-      font-size: 2.2rem;
-      font-weight: 800;
-      font-family: "Noto Sans";
-      letter-spacing: -1px; }
+      font-size: 60px;
+      font-weight: 700;
+      font-family: "Pretendard-Regular"; }
     #webpublisher .webpublisher_inner .pub_txt {
       margin-top: 5px;
       color: #afafaf;
@@ -584,9 +581,8 @@ scroll navi 영역
         text-align: center;
         color: #252525;
         font-size: 1.9rem;
-        font-weight: 800;
-        font-family: "Noto Sans";
-        letter-spacing: -1px; }
+        font-weight: 700;
+        font-family: "Pretendard-Regular"; }
       #about .about_inner .about_wrap .about_img {
         height: 30vh;
         float: none;
@@ -636,9 +632,8 @@ scroll navi 영역
       text-align: center;
       color: #252525;
       font-size: 1.9rem;
-      font-weight: 800;
-      font-family: "Noto Sans";
-      letter-spacing: -1px; }
+      font-weight: 700;
+      font-family: "Pretendard-Regular"; }
     #webdesign .webdesign_inner .web_txt {
       font-size: 1rem; }
     #webdesign .webdesign_inner .web_content {
@@ -662,9 +657,8 @@ scroll navi 영역
         text-align: center;
         color: #252525;
         font-size: 1.9rem;
-        font-weight: 800;
-        font-family: "Noto Sans";
-        letter-spacing: -1px; }
+        font-weight: 700;
+        font-family: "Pretendard-Regular"; }
       #webpublisher .webpublisher_inner .pub_txt {
         font-size: 1rem; }
       #webpublisher .webpublisher_inner .pub_content > article .pic {
