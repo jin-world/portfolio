@@ -54,8 +54,8 @@ header 영역
           color: #fff;
           font-weight: 500;
           font-size: 18px; }
-        #header .wrap nav ul li :first-child {
-          padding-left: 0px; }
+      #header .wrap nav ul :first-child {
+        padding-left: 0px; }
 
 /* -----------------------------------------------------------------
 visual 영역
@@ -125,8 +125,15 @@ about 영역
       text-align: center;
       color: #252525;
       font-size: 60px;
-      font-weight: 700;
-      font-family: "Pretendard-Regular"; }
+      font-weight: 400;
+      font-family: "Pretendard-Regular";
+      letter-spacing: #about .about_inner .about_tit letter; }
+      #about .about_inner .about_tit .dot {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #004dd0; }
     #about .about_inner .about_wrap {
       padding: 70px 0 0 0;
       overflow: hidden; }
@@ -245,8 +252,9 @@ design portfolio 영역
       text-align: center;
       color: #252525;
       font-size: 60px;
-      font-weight: 700;
-      font-family: "Pretendard-Regular"; }
+      font-weight: 400;
+      font-family: "Pretendard-Regular";
+      letter-spacing: #webdesign .webdesign_inner .web_tit letter; }
     #webdesign .webdesign_inner .web_txt {
       margin-top: 5px;
       color: #afafaf;
@@ -305,8 +313,9 @@ web portfolio 영역
       text-align: center;
       color: #252525;
       font-size: 60px;
-      font-weight: 700;
-      font-family: "Pretendard-Regular"; }
+      font-weight: 400;
+      font-family: "Pretendard-Regular";
+      letter-spacing: #webpublisher .webpublisher_inner .pub_tit letter; }
     #webpublisher .webpublisher_inner .pub_txt {
       margin-top: 5px;
       color: #afafaf;
@@ -578,8 +587,9 @@ scroll navi 영역
         text-align: center;
         color: #252525;
         font-size: 1.9rem;
-        font-weight: 700;
-        font-family: "Pretendard-Regular"; }
+        font-weight: 400;
+        font-family: "Pretendard-Regular";
+        letter-spacing: #about .about_inner .about_tit letter; }
       #about .about_inner .about_wrap .about_img {
         height: 30vh;
         float: none;
@@ -629,8 +639,9 @@ scroll navi 영역
       text-align: center;
       color: #252525;
       font-size: 1.9rem;
-      font-weight: 700;
-      font-family: "Pretendard-Regular"; }
+      font-weight: 400;
+      font-family: "Pretendard-Regular";
+      letter-spacing: #webdesign .webdesign_inner .web_tit letter; }
     #webdesign .webdesign_inner .web_txt {
       font-size: 1rem; }
     #webdesign .webdesign_inner .web_content {
@@ -654,8 +665,9 @@ scroll navi 영역
         text-align: center;
         color: #252525;
         font-size: 1.9rem;
-        font-weight: 700;
-        font-family: "Pretendard-Regular"; }
+        font-weight: 400;
+        font-family: "Pretendard-Regular";
+        letter-spacing: #webpublisher .webpublisher_inner .pub_tit letter; }
       #webpublisher .webpublisher_inner .pub_txt {
         font-size: 1rem; }
       #webpublisher .webpublisher_inner .pub_content > article .pic {

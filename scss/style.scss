@@ -10,12 +10,13 @@
     font-style: normal;
 }
 
-@mixin cont_tit($align: center, $color: #252525, $fontsize: 60px, $fontweight: 700, $fontfamily: "Pretendard-Regular") {
+@mixin cont_tit($align: center, $color: #252525, $fontsize: 60px, $fontweight: 400, $fontfamily: "Pretendard-Regular", $letter: "10px") {
     text-align: $align;
     color: $color;
     font-size: $fontsize;
     font-weight: $fontweight;
     font-family: $fontfamily;
+    letter-spacing: &letter;
 }
 
 /* 공통 */
@@ -64,9 +65,9 @@ header 영역
                          font-weight: 500;
                          font-size: 18px;
                     }
-                    
-                    :first-child {padding-left: 0px;}
                 }
+
+                :first-child {padding-left: 0px;}
             }
         }
     }
@@ -158,6 +159,14 @@ about 영역
 
         .about_tit {
             @include cont_tit();
+
+            .dot {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color:#004dd0;
+            }
         }
 
         .about_wrap {
