@@ -109,11 +109,17 @@ visual 영역
                 color: #004ccf;
             }
 
-            .type01 {
-                font-size: 64px;
-                font-weight: 300;
-                color: #fff;
-                // margin: 22px auto 70px;
+            h3 {
+                font-size: 65px;
+                padding: 50px 0 60px;
+
+                #typed01 {
+                   display: inline-block;
+                }
+
+                strong {
+                    font-weight: 700;
+                }
             }
 
             .tag {
