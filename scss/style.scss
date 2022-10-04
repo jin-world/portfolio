@@ -64,7 +64,7 @@ header 영역
                          display: block;
                          padding-left: 80px;
                          color: #fff;
-                         font-weight: 500;
+                         font-weight: 600;
                          font-size: 18px;
                     }
                 }
@@ -113,7 +113,7 @@ visual 영역
                 font-size: 65px;
                 padding: 50px 0 60px;
                 color: #fff;
-                font-weight: 200;
+                font-weight: 100;
 
                 #typed01 {
                    display: inline-block;
@@ -170,19 +170,22 @@ about 영역
         }
 
         .about_wrap {
-            padding: 70px 0 0 0;
+            padding: 90px 0 0 0;
             overflow: hidden;
 
             .about_img {
-                position: relative;
-                width: 20vw;
-                height: 430px;
+                position: absolute;
+                width: 70%;
                 float: left;
+
+                img {
+                    border-radius: 10%;
+                }
             }
 
             .about_txt {
-                width: 52vw;
                 float: right;
+                padding-left: 480px;
                
                 .content-box {
                     display: inline-block;

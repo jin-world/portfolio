@@ -54,7 +54,7 @@ header 영역
           display: block;
           padding-left: 80px;
           color: #fff;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 18px; }
 
 /* -----------------------------------------------------------------
@@ -91,7 +91,7 @@ visual 영역
         font-size: 65px;
         padding: 50px 0 60px;
         color: #fff;
-        font-weight: 200; }
+        font-weight: 100; }
         #visual .visual_inner .visual_content h3 #typed01 {
           display: inline-block; }
         #visual .visual_inner .visual_content h3 strong {
@@ -135,16 +135,17 @@ about 영역
         border-radius: 50%;
         background-color: #004dd0; }
     #about .about_inner .about_wrap {
-      padding: 70px 0 0 0;
+      padding: 90px 0 0 0;
       overflow: hidden; }
       #about .about_inner .about_wrap .about_img {
-        position: relative;
-        width: 20vw;
-        height: 430px;
+        position: absolute;
+        width: 70%;
         float: left; }
+        #about .about_inner .about_wrap .about_img img {
+          border-radius: 10%; }
       #about .about_inner .about_wrap .about_txt {
-        width: 52vw;
-        float: right; }
+        float: right;
+        padding-left: 480px; }
         #about .about_inner .about_wrap .about_txt .content-box {
           display: inline-block;
           margin-bottom: 60px;
