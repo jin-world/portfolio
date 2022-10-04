@@ -21,7 +21,13 @@
 
 /* 공통 */
 .ani {transition: all 0.3s;}
-
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:#004dd0;
+}
 
 /* -----------------------------------------------------------------
 header 영역
@@ -159,14 +165,6 @@ about 영역
 
         .about_tit {
             @include cont_tit();
-
-            .dot {
-                display: inline-block;
-                width: 12px;
-                height: 12px;
-                border-radius: 50%;
-                background-color:#004dd0;
-            }
         }
 
         .about_wrap {

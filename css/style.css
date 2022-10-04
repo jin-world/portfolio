@@ -21,6 +21,13 @@ a {
 .ani {
   transition: all 0.3s; }
 
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #004dd0; }
+
 /* -----------------------------------------------------------------
 header 영역
 -----------------------------------------------------------------*/
@@ -128,12 +135,6 @@ about 영역
       font-weight: 400;
       font-family: "Pretendard-Regular";
       letter-spacing: #about .about_inner .about_tit letter; }
-      #about .about_inner .about_tit .dot {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #004dd0; }
     #about .about_inner .about_wrap {
       padding: 90px 0 0 0;
       overflow: hidden; }
