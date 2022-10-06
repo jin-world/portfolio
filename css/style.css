@@ -145,10 +145,8 @@ about 영역
         #about .about_inner .about_wrap .about_img img {
           border-radius: 10%; }
       #about .about_inner .about_wrap .about_txt {
-        float: right;
         padding-left: 470px; }
         #about .about_inner .about_wrap .about_txt .content-box {
-          display: inline-block;
           margin-bottom: 60px;
           font-family: 'Pretendard-Regular', sans-serif; }
           #about .about_inner .about_wrap .about_txt .content-box h2 {
