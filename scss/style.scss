@@ -215,7 +215,7 @@ about 영역
                         }
                     }
                 }
-                
+
                 :nth-of-type(3) {
                     clear: both;
                     display: block;
@@ -260,6 +260,7 @@ skill 영역
             .skill-row {
                 float: left;
                 width: 100%;
+                font-family: 'Pretendard-Regular', sans-serif;
 
                 .skill_title {
                     float: left;
@@ -286,7 +287,6 @@ skill 영역
                         .skill-list_name {
                             display: block;
                             margin-bottom: 12px;
-                            font-family: 'Pretendard-Regular', sans-serif;
                             font-weight: 700;
                             font-size: 19px;
                         }
