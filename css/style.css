@@ -182,22 +182,22 @@ profile 영역
 /* -----------------------------------------------------------------
 skill 영역
 -----------------------------------------------------------------*/
-#skill {
+#skills {
   position: relative;
   background-color: #fafafa;
   padding: 150px 0px; }
-  #skill .skill_inner {
+  #skills .skills_inner {
     max-width: 1200px;
     margin: 0 auto; }
-    #skill .skill_inner .skill-category-container {
+    #skills .skills_inner .skills-category-container {
       padding-bottom: 50px;
       margin-bottom: 50px;
       border-bottom: 1px solid #ddd; }
-      #skill .skill_inner .skill-category-container .skill-row {
+      #skills .skills_inner .skills-category-container .skills-row {
         float: left;
         width: 100%;
         font-family: 'Pretendard-Regular', sans-serif; }
-        #skill .skill_inner .skill-category-container .skill-row .skill_title {
+        #skills .skills_inner .skills-category-container .skills-row .skills_title {
           float: left;
           width: 50%;
           color: #333;
@@ -206,94 +206,92 @@ skill 영역
           font-size: 45px;
           line-height: 1.6;
           letter-spacing: -0.5px; }
-        #skill .skill_inner .skill-category-container .skill-row .skill_list {
+        #skills .skills_inner .skills-category-container .skills-row .skills_list {
           width: 50%;
           float: right; }
-          #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item {
+          #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item {
             position: relative;
             font-size: 19px;
             line-height: 160%;
             padding-left: 30px;
             margin-top: 56px; }
-            #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item .skill-list_name {
+            #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_name {
               display: block;
               margin-bottom: 12px;
               font-weight: 700;
               font-size: 19px; }
-            #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item .skill-list_desc {
+            #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_desc {
               line-height: 1.68;
               font-size: 98%;
               letter-spacing: -.19px; }
-          #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item:first-child {
+          #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item:first-child {
             margin-top: 0; }
-    #skill .skill_inner :last-child {
+    #skills .skills_inner :last-child {
       padding-bottom: 0;
       margin-bottom: 0;
       border-bottom: 0; }
-    #skill .skill_inner ::after {
+    #skills .skills_inner ::after {
       content: "";
       display: block;
       clear: both; }
 
 /* -----------------------------------------------------------------
-design portfolio 영역
+works 영역
 -----------------------------------------------------------------*/
-#webdesign {
+#works {
   position: relative;
-  background-color: #fff;
   padding: 150px 0px; }
-  #webdesign .webdesign_inner {
+  #works .works_inner {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
-    position: relative; }
-    #webdesign .webdesign_inner .web_tit {
+    margin: 0 auto; }
+    #works .works_inner .works_tit {
       text-align: center;
       color: #252525;
       font-size: 60px;
       font-weight: 400;
       font-family: "Pretendard-Regular";
-      letter-spacing: #webdesign .webdesign_inner .web_tit letter; }
-    #webdesign .webdesign_inner .web_txt {
-      margin-top: 5px;
-      color: #afafaf;
-      text-align: center;
-      font-size: 1.124rem;
-      font-weight: 600;
-      font-family: 'Pretendard-Regular', sans-serif; }
-    #webdesign .webdesign_inner .web_content {
+      letter-spacing: #works .works_inner .works_tit letter; }
+    #works .works_inner .works_content {
       display: flex;
-      justify-content: space-between;
-      margin-top: 90px; }
-      #webdesign .webdesign_inner .web_content > article {
-        width: 100%; }
-        #webdesign .webdesign_inner .web_content > article .pic {
+      flex-wrap: wrap;
+      margin-top: 90px;
+      margin-left: -30px; }
+      #works .works_inner .works_content > article {
+        width: 380px;
+        margin: 0 0 50px 30px; }
+        #works .works_inner .works_content > article .pic {
           width: 100%;
-          height: 320px;
+          height: 280px;
           background-color: #333;
           margin-bottom: 20px;
           border: 1px solid #c2c2c2; }
-          #webdesign .webdesign_inner .web_content > article .pic .web_mobile {
+          #works .works_inner .works_content > article .pic .web_mobile {
             display: none; }
-          #webdesign .webdesign_inner .web_content > article .pic img {
+          #works .works_inner .works_content > article .pic img {
             width: 100%;
             height: 100%;
             object-fit: cover; }
-        #webdesign .webdesign_inner .web_content > article h2 {
-          font-size: 18px;
-          font-family: 'Noto Sans', sans-serif;
+        #works .works_inner .works_content > article h2 {
+          font-size: 20px;
+          font-family: 'Pretendard-Regular', sans-serif;
+          font-weight: bold;
+          color: #111;
+          margin-bottom: 10px; }
+        #works .works_inner .works_content > article p {
+          font-size: 16px;
           color: #555;
-          margin-bottom: 20px; }
-        #webdesign .webdesign_inner .web_content > article a {
+          margin-bottom: 40px; }
+        #works .works_inner .works_content > article a {
           display: inline-block;
-          width: 70px;
-          height: 27px;
-          border: 1px solid #aa0000;
+          width: 100px;
+          height: 34px;
+          border: 1px solid #004ccf;
           text-align: center;
-          font: bold 12px/27px "Noto Sans";
-          color: #aa0000; }
-        #webdesign .webdesign_inner .web_content > article :hover {
-          background-color: #aa0000;
+          font: bold 14px/34px "Pretendard-Regular";
+          color: #004ccf; }
+        #works .works_inner .works_content > article :hover {
+          background-color: #004ccf;
           color: #fff; }
 
 /* -----------------------------------------------------------------
@@ -313,7 +311,7 @@ contact 영역
       color: #252525;
       font-size: 1.6rem;
       font-weight: 500;
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Pretendard-Regular', sans-serif;
       letter-spacing: -1px;
       text-shadow: 9px 8px 10px #ddd;
       margin-bottom: 60px; }
@@ -329,10 +327,10 @@ contact 영역
         font-size: 82px;
         font-weight: 500;
         transition: all 0.3s;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Pretendard-Regular', sans-serif;
         color: inherit; }
       #contact .contact_inner .contact_info :hover {
-        color: #aa0000;
+        color: #004ccf;
         transform: scale(0.95); }
       #contact .contact_inner .contact_info .contact_txt {
         margin-top: 20px;
@@ -345,13 +343,16 @@ contact 영역
 footer 영역
 -----------------------------------------------------------------*/
 #footer {
-  border: 1px solid #eee;
   padding-top: 28px;
   padding-bottom: 26px; }
   #footer .fusion-row > div {
-    color: #adadad;
+    color: #666;
     text-align: center;
-    font-family: 'Noto Sans', sans-serif; }
+    font-weight: 400;
+    font-family: 'Pretendard-Regular', sans-serif; }
+    #footer .fusion-row > div span {
+      color: #333;
+      font-weight: 700; }
 
 /* -----------------------------------------------------------------
 scroll navi 영역
