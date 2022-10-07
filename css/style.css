@@ -117,64 +117,64 @@ visual 영역
           margin-left: 20px; }
 
 /* -----------------------------------------------------------------
-about 영역
+profile 영역
 -----------------------------------------------------------------*/
-#about {
+#profile {
   width: 100%;
   padding: 150px 0px;
   position: relative; }
-  #about .about_inner {
+  #profile .profile_inner {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     position: relative; }
-    #about .about_inner .about_tit {
+    #profile .profile_inner .profile_tit {
       text-align: center;
       color: #252525;
       font-size: 60px;
       font-weight: 400;
       font-family: "Pretendard-Regular";
-      letter-spacing: #about .about_inner .about_tit letter; }
-    #about .about_inner .about_wrap {
+      letter-spacing: #profile .profile_inner .profile_tit letter; }
+    #profile .profile_inner .profile_wrap {
       padding: 90px 0 0 0;
       overflow: hidden; }
-      #about .about_inner .about_wrap .about_img {
+      #profile .profile_inner .profile_wrap .profile_img {
         position: absolute;
         width: 70%;
         float: left; }
-        #about .about_inner .about_wrap .about_img img {
+        #profile .profile_inner .profile_wrap .profile_img img {
           border-radius: 10%; }
-      #about .about_inner .about_wrap .about_txt {
+      #profile .profile_inner .profile_wrap .profile_txt {
         padding-left: 470px; }
-        #about .about_inner .about_wrap .about_txt .content-box {
+        #profile .profile_inner .profile_wrap .profile_txt .content-box {
           margin-bottom: 60px;
           font-family: 'Pretendard-Regular', sans-serif; }
-          #about .about_inner .about_wrap .about_txt .content-box h2 {
+          #profile .profile_inner .profile_wrap .profile_txt .content-box h2 {
             margin-bottom: 22px;
             color: #333;
             font-size: 1.4rem;
             font-weight: 800;
             text-transform: uppercase; }
-          #about .about_inner .about_wrap .about_txt .content-box .txt-box {
+          #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box {
             display: table;
             margin-bottom: 5px;
             color: #333;
             font-weight: 400; }
-            #about .about_inner .about_wrap .about_txt .content-box .txt-box dt {
+            #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box dt {
               width: 120px;
               font-weight: 700; }
-            #about .about_inner .about_wrap .about_txt .content-box .txt-box dd {
+            #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box dd {
               display: table-cell;
               font-weight: 500; }
-        #about .about_inner .about_wrap .about_txt :nth-of-type(3) {
+        #profile .profile_inner .profile_wrap .profile_txt :nth-of-type(3) {
           clear: both;
           display: block;
           margin-bottom: 0px; }
-          #about .about_inner .about_wrap .about_txt :nth-of-type(3) p {
+          #profile .profile_inner .profile_wrap .profile_txt :nth-of-type(3) p {
             width: 100%;
             line-height: 30px;
             color: #333; }
-    #about .about_inner ::after {
+    #profile .profile_inner ::after {
       content: "";
       display: block;
       clear: both; }

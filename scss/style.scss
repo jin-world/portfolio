@@ -150,28 +150,28 @@ visual 영역
 }
 
 /* -----------------------------------------------------------------
-about 영역
+profile 영역
 -----------------------------------------------------------------*/
-#about {
+#profile {
     width: 100%;
     padding: 150px 0px;
     position: relative;
 
-    .about_inner {
+    .profile_inner {
         max-width: 1200px;
         width: 100%;
         margin: 0 auto;
         position: relative;
 
-        .about_tit {
+        .profile_tit {
             @include cont_tit();
         }
 
-        .about_wrap {
+        .profile_wrap {
             padding: 90px 0 0 0;
             overflow: hidden;
 
-            .about_img {
+            .profile_img {
                 position: absolute;
                 width: 70%;
                 float: left;
@@ -181,7 +181,7 @@ about 영역
                 }
             }
 
-            .about_txt {
+            .profile_txt {
                 // float: right;
                 padding-left: 470px;
                
