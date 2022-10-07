@@ -257,8 +257,6 @@ works 영역
       flex-wrap: wrap;
       margin-top: 90px;
       margin-left: -30px; }
-      #works .works_inner .works_content :nth-of-type(1) {
-        margin: 0 0 0 30px; }
       #works .works_inner .works_content > article {
         width: 380px;
         margin: 0 0 50px 30px; }
