@@ -152,9 +152,13 @@ profile 영역
           #profile .profile_inner .profile_wrap .profile_txt .content-box h2 {
             margin-bottom: 22px;
             color: #333;
-            font-size: 1.4rem;
+            font-size: 20px;
             font-weight: 800;
-            text-transform: uppercase; }
+            text-transform: uppercase;
+            color: #004dd0; }
+          #profile .profile_inner .profile_wrap .profile_txt .content-box p {
+            font-size: 18px;
+            line-height: 28px; }
           #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box {
             display: table;
             margin-bottom: 5px;
@@ -162,10 +166,14 @@ profile 영역
             font-weight: 400; }
             #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box dt {
               width: 120px;
-              font-weight: 700; }
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 30px; }
             #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box dd {
               display: table-cell;
-              font-weight: 500; }
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 30px; }
         #profile .profile_inner .profile_wrap .profile_txt #introduce {
           padding-bottom: 60px;
           border-bottom: 1px solid #aaa; }

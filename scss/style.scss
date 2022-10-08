@@ -191,9 +191,15 @@ profile 영역
                     h2 {
                         margin-bottom: 22px;
                         color: #333;
-                        font-size: 1.4rem;
+                        font-size: 20px;
                         font-weight: 800;
                         text-transform: uppercase;
+                        color: #004dd0;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        line-height: 28px;
                     }
 
                     .txt-box {
@@ -205,11 +211,15 @@ profile 영역
                         dt {
                             width: 120px;
                             font-weight: 700;
+                            font-size: 18px;
+                            line-height: 30px;
                         }
 
                         dd {
                             display: table-cell;
                             font-weight: 500;
+                            font-size: 18px;
+                            line-height: 30px;
                         }
                     }
                 }
