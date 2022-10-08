@@ -310,9 +310,9 @@ contact 영역
 #contact {
   position: relative;
   background-color: #f0f0f0;
-  padding: 180px 0px; }
+  padding: 150px 0px; }
   #contact .contact_inner {
-    max-width: 1440px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     position: relative; }
@@ -331,13 +331,13 @@ contact 영역
     #contact .contact_inner .contact_info {
       text-align: center;
       font-size: 1.2rem;
-      font-weight: 800; }
+      font-weight: 800;
+      font-family: 'Pretendard-Regular', sans-serif; }
       #contact .contact_inner .contact_info a {
         display: block;
         font-size: 82px;
         font-weight: 500;
         transition: all 0.3s;
-        font-family: 'Pretendard-Regular', sans-serif;
         color: inherit; }
       #contact .contact_inner .contact_info :hover {
         color: #004ccf;
