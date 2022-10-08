@@ -142,8 +142,6 @@ profile 영역
         position: absolute;
         width: 70%;
         float: left; }
-        #profile .profile_inner .profile_wrap .profile_img img {
-          border-radius: 10%; }
       #profile .profile_inner .profile_wrap .profile_txt {
         padding-left: 470px; }
         #profile .profile_inner .profile_wrap .profile_txt .content-box {
@@ -383,96 +381,33 @@ scroll navi 영역
 /* -----------------------------------------------------------------
         반응형
     -----------------------------------------------------------------*/
-/* 1439px  ---------------------------------------------------------- */
-@media screen and (max-width: 1439px) {
-  /* about */
-  #about .about_inner {
-    width: 90%; }
-    #about .about_inner .about_wrap .about_txt :nth-of-type(3) p {
-      width: 90%; }
+/* PC ----------------------------------------------------------- */
+@media screen and (max-width: 1200px) {
+  #header {
+    padding: 35px 40px; }
 
-  /* skill */
-  #skill .skill_inner {
-    padding: 0 90px; }
-
-  /* web_portfolio */
-  #webdesign .webdesign_inner {
-    max-width: 90%; }
-    #webdesign .webdesign_inner .web_content > article {
-      width: 32%; }
-      #webdesign .webdesign_inner .web_content > article .pic {
-        width: 100%;
-        height: 200px; }
-
-  /* pub_portfolio*/
-  #webpublisher {
-    padding: 0px 0px 180px 0px; }
-    #webpublisher .webpublisher_inner {
-      max-width: 90%; }
-
-  /* scrill navi */
-  #navi {
-    right: 20px; } }
-/* 1279px ----------------------------------------------------------- */
-@media screen and (max-width: 1279px) {
-  /* about */
-  #about .about_inner {
-    width: 90%; }
-    #about .about_inner .about_wrap .about_img {
-      width: 30vw;
-      height: 40vh;
-      float: left; }
-      #about .about_inner .about_wrap .about_img img {
-        width: 100%; }
-    #about .about_inner .about_wrap .about_txt {
-      width: 54vw; }
-      #about .about_inner .about_wrap .about_txt :nth-of-type(3) p {
-        width: 90%; }
-
-  /* skill */
-  #skill .skill_inner {
-    padding: 0 90px; }
-    #skill .skill_inner .skill-category-container .skill-row {
-      width: 100%; }
-      #skill .skill_inner .skill-category-container .skill-row .skill_title {
-        width: 40%;
-        font-size: 36px; }
-      #skill .skill_inner .skill-category-container .skill-row .skill_list {
-        width: 60%; }
-        #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item {
-          font-size: 16px; }
-          #skill .skill_inner .skill-category-container .skill-row .skill_list .skill_list_item .skill-list_name {
-            font-size: 18px; }
-
-  /* web_portfolio */
-  #webdesign .webdesign_inner .web_content > article .pic {
-    height: 180px; }
-  #webdesign .webdesign_inner .web_content > article h2 {
-    font-size: 16px; } }
-/* 1023px ----------------------------------------------------------- */
-@media screen and (max-width: 1023px) {
+  #visual .visual_inner {
+    max-width: 96%; } }
+/* tablet ----------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
   /* visual */
   #visual .visual_inner .visual_content .visual_text {
-    font-size: 24px; }
-  #visual .visual_inner .visual_content .visual_logo img {
-    width: 55%; }
-  #visual .visual_inner .visual_content .visual_desc {
-    font-size: 15px; }
+    font-size: 22px; }
+  #visual .visual_inner .visual_content h3 {
+    font-size: 50px; }
 
   /* about */
-  #about {
-    padding: 110px 0px; }
-    #about .about_inner {
-      width: 90%; }
-      #about .about_inner .about_wrap .about_img {
-        width: 25vw;
-        height: 40vh; }
-        #about .about_inner .about_wrap .about_img img {
-          width: 100%; }
-      #about .about_inner .about_wrap .about_txt {
-        width: 58vw; }
-        #about .about_inner .about_wrap .about_txt :nth-of-type(3) p {
-          width: 100%; }
+  #profile .profile_inner .profile_wrap {
+    padding: 60px 0 0 0; }
+    #profile .profile_inner .profile_wrap .profile_img {
+      position: relative;
+      width: 100%;
+      float: none;
+      text-align: center; }
+      #profile .profile_inner .profile_wrap .profile_img img {
+        width: 240px; }
+    #profile .profile_inner .profile_wrap .profile_txt {
+      padding: 50px 40px 0; }
 
   /* skill */
   #skill {
@@ -490,14 +425,6 @@ scroll navi 영역
       height: 150px; }
     #webdesign .webdesign_inner .web_content > article h2 {
       font-size: 15px; }
-
-  /* pub_portfolio*/
-  #webpublisher {
-    padding: 0px 0px 110px 0px; }
-    #webpublisher .webpublisher_inner {
-      max-width: 90%; }
-      #webpublisher .webpublisher_inner .pub_content > article .pic {
-        height: 200px; }
 
   /* contact */
   #contact {
