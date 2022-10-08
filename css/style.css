@@ -176,15 +176,16 @@ profile 영역
               line-height: 30px; }
         #profile .profile_inner .profile_wrap .profile_txt #introduce {
           padding-bottom: 60px;
-          border-bottom: 1px solid #aaa; }
-        #profile .profile_inner .profile_wrap .profile_txt :nth-of-type(3) {
-          clear: both;
-          display: block;
+          border-bottom: 1px solid #aaa;
+          width: 100%; }
+        #profile .profile_inner .profile_wrap .profile_txt #profiletxt {
+          float: left;
+          padding-right: 90px;
           margin-bottom: 0px; }
-          #profile .profile_inner .profile_wrap .profile_txt :nth-of-type(3) p {
-            width: 100%;
-            line-height: 30px;
-            color: #333; }
+        #profile .profile_inner .profile_wrap .profile_txt #license {
+          float: left;
+          padding-right: 0px;
+          margin-bottom: 0px; }
     #profile .profile_inner ::after {
       content: "";
       display: block;

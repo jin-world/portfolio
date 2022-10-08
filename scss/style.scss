@@ -227,18 +227,19 @@ profile 영역
                 #introduce {
                     padding-bottom: 60px;
                     border-bottom: 1px solid #aaa;
+                    width: 100%;
                 }
 
-                :nth-of-type(3) {
-                    clear: both;
-                    display: block;
+                #profiletxt {
+                    float: left;
+                    padding-right: 90px;
                     margin-bottom: 0px;
+                }
 
-                    p {
-                        width: 100%;
-                        line-height: 30px;
-                        color: #333;
-                    }
+                #license {
+                    float: left;
+                    padding-right: 0px;
+                    margin-bottom: 0px;
                 }
             }
         }
