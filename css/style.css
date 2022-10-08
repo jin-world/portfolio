@@ -169,8 +169,6 @@ profile 영역
         #profile .profile_inner .profile_wrap .profile_txt #introduce {
           padding-bottom: 60px;
           border-bottom: 1px solid #aaa; }
-        #profile .profile_inner .profile_wrap .profile_txt #profiletxt {
-          padding-top: 60px; }
         #profile .profile_inner .profile_wrap .profile_txt :nth-of-type(3) {
           clear: both;
           display: block;
