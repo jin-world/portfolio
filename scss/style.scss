@@ -182,11 +182,9 @@ profile 영역
             }
 
             .profile_txt {
-                // float: right;
                 padding-left: 470px;
                
                 .content-box {
-                    // display: inline-block;
                     margin-bottom: 60px;
                     font-family: 'Pretendard-Regular', sans-serif;
 
@@ -214,6 +212,15 @@ profile 영역
                             font-weight: 500;
                         }
                     }
+                }
+
+                :nth-of-type(1) .content-box{
+                    padding-bottom: 60px;
+                    border-bottom: 1px solid #aaa;
+                }
+
+                :nth-of-type(1) .content-box{
+                    padding-top: 60px;
                 }
 
                 :nth-of-type(3) {
