@@ -56,7 +56,8 @@ header 영역
         padding-left: 0; }
       #header .wrap nav ul li {
         float: left;
-        width: 25%; }
+        width: 25%;
+        padding-top: 7px; }
         #header .wrap nav ul li a {
           display: block;
           padding-left: 80px;
