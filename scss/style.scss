@@ -543,38 +543,14 @@ scroll navi 영역
        }
     }
 
-    /* skill */
-    #skill {
-        padding: 110px 0px;
-
-        .skill_inner {
-            padding: 0 50px;
-
-            .skill-category-container {
-                .skill-row {
-                    .skill_title {
-                        width: 40%;
-                        font-size: 32px;
-                    }
-                }
-            }
-        }
-    }
-
-    /* web_portfolio */
-    #webdesign {
-        padding: 110px 0px;
-
-        .webdesign_inner {
-            .web_content {
+    /* works */
+    #works {
+        .works_inner {
+            .works_content {
+                margin-left: 0px;
+    
                 >article {
-                    .pic {
-                        height: 150px;
-                    }
-
-                    h2 {
-                        font-size: 15px;
-                    }
+                    width: 46%;
                 }
             }
         }
@@ -582,13 +558,11 @@ scroll navi 영역
 
     /* contact */
     #contact {
-        padding: 110px 0px;
+        padding: 100px 0px;
     
         .contact_inner {
-            max-width: 90%;
-    
             .contact_tit {
-                font-size: 1.3rem;
+                font-size: 18px;
                 margin-bottom: 40px;
     
                 .contact_icon {
@@ -599,7 +573,7 @@ scroll navi 영역
     
             .contact_info {
                 a {
-                    font-size: 70px;
+                    font-size: 60px;
                 }
 
                 .contact_txt {

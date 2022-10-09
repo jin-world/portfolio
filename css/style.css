@@ -409,38 +409,25 @@ scroll navi 영역
     #profile .profile_inner .profile_wrap .profile_txt {
       padding: 50px 40px 0; }
 
-  /* skill */
-  #skill {
-    padding: 110px 0px; }
-    #skill .skill_inner {
-      padding: 0 50px; }
-      #skill .skill_inner .skill-category-container .skill-row .skill_title {
-        width: 40%;
-        font-size: 32px; }
-
-  /* web_portfolio */
-  #webdesign {
-    padding: 110px 0px; }
-    #webdesign .webdesign_inner .web_content > article .pic {
-      height: 150px; }
-    #webdesign .webdesign_inner .web_content > article h2 {
-      font-size: 15px; }
+  /* works */
+  #works .works_inner .works_content {
+    margin-left: 0px; }
+    #works .works_inner .works_content > article {
+      width: 46%; }
 
   /* contact */
   #contact {
-    padding: 110px 0px; }
-    #contact .contact_inner {
-      max-width: 90%; }
-      #contact .contact_inner .contact_tit {
-        font-size: 1.3rem;
-        margin-bottom: 40px; }
-        #contact .contact_inner .contact_tit .contact_icon {
-          width: 48px;
-          animation: swing 2.5s infinite; }
-      #contact .contact_inner .contact_info a {
-        font-size: 70px; }
-      #contact .contact_inner .contact_info .contact_txt {
-        font-size: 14px; } }
+    padding: 100px 0px; }
+    #contact .contact_inner .contact_tit {
+      font-size: 18px;
+      margin-bottom: 40px; }
+      #contact .contact_inner .contact_tit .contact_icon {
+        width: 48px;
+        animation: swing 2.5s infinite; }
+    #contact .contact_inner .contact_info a {
+      font-size: 60px; }
+    #contact .contact_inner .contact_info .contact_txt {
+      font-size: 14px; } }
 /* 839px----------------------------------------------------------- */
 @media screen and (max-width: 839px) {
   /* header */
