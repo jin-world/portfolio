@@ -499,7 +499,7 @@ scroll navi 영역
 /* PC ----------------------------------------------------------- */
 @media screen and (max-width:1200px){
     #header {padding: 35px 40px;}
-    #visual .visual_inner {max-width: 96%;}
+    #visual .visual_inner, #profile .profile_inner, #skills .skills_inner , #works .works_inner, #contact .contact_inner {max-width: 96%;}
 }
 
 /* tablet ----------------------------------------------------------- */
@@ -586,6 +586,110 @@ scroll navi 영역
 
 /* mobile ----------------------------------------------------------- */
 @media screen and (max-width:768px){
+    /* header */
+    #header {
+        padding: 30px;
+
+        .wrap {
+            .logo {
+                a {
+                    img {width: 140px;}
+                }
+            }
+
+            nav {
+                ul {
+                    li {
+                        a {
+                            padding-left: 40px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* visual */
+    #visual {
+        .visual_inner {
+            .visual_content {
+                .visual_text {
+                    font-size: 18px;
+                }
+    
+                h3 {
+                    font-size: 34px;
+                    padding: 40px;
+                }
+
+                .tag {
+                    font-size: 14px;
+
+                    span {
+                        padding: 8px 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*about*/
+    #profile {
+        padding: 120px 0px;
+
+        .profile_inner {
+            .profile_tit {
+                font-size: 40px;
+            }
+    
+            .profile_wrap {
+                padding: 40px 0 0 0;
+
+                .profile_img {
+                    img {
+                        width:220px;
+                    }
+                }
+ 
+                .profile_txt {            
+                    .content-box {
+                        h2 {
+                            font-size: 18px;
+                        }
+    
+                        p {
+                            font-size: 15px;
+                            line-height: 26px;
+                        }
+    
+                        .txt-box {
+                            dt {
+                                font-size: 15px;
+                                line-height: 26px;
+                            }
+    
+                            dd {
+                                font-size: 15px;
+                                line-height: 26px;
+                            }
+                        }
+                    }
+
+                    #profiletxt {
+                        float: none;
+                        padding-right: 0px;
+                    }
+
+                    #license {
+                        float: none;
+                    }
+                }
+            }
+        }
+    }
+
+    /* skills */
     
 }
 
