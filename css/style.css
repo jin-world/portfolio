@@ -477,6 +477,25 @@ scroll navi 영역
       #profile .profile_inner .profile_wrap .profile_txt #license {
         float: none; }
 
-  /* skills */ }
+  /* skills */
+  #skills {
+    padding: 120px 0px; }
+    #skills .skills_inner {
+      padding: 0px 40px 0; }
+      #skills .skills_inner .skills-category-container .skills-row .skills_title {
+        float: none;
+        width: 100%;
+        font-size: 24px;
+        color: #004dd0; }
+      #skills .skills_inner .skills-category-container .skills-row .skills_list {
+        width: 100%;
+        float: none; }
+        #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item {
+          font-size: 18px;
+          padding-left: 0px; }
+          #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_name {
+            font-size: 16px; }
+          #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_desc {
+            font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

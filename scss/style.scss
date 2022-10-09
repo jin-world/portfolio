@@ -691,7 +691,42 @@ scroll navi 영역
     }
 
     /* skills */
+    #skills {
+        padding: 120px 0px;
+    
+        .skills_inner {
+            padding: 0px 40px 0;
 
+            .skills-category-container {
+                .skills-row {
+                    .skills_title {
+                        float: none;
+                        width: 100%;
+                        font-size: 24px;
+                        color: #004dd0;
+                    }
+            
+                    .skills_list {
+                        width: 100%;
+                        float: none;
+        
+                        .skills_list_item {
+                            font-size: 18px;
+                            padding-left: 0px;
+            
+                            .skills-list_name {
+                                font-size: 16px;
+                            }
+
+                            .skills-list_desc {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:499px){
