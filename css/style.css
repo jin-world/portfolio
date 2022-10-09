@@ -480,8 +480,8 @@ scroll navi 영역
   /* skills */
   #skills {
     padding: 120px 0px; }
-    #skills .skills_inner {
-      padding: 0px 40px 0; }
+    #skills .skills_inner .skills-category-container {
+      padding: 0px 40px 50px; }
       #skills .skills_inner .skills-category-container .skills-row .skills_title {
         float: none;
         width: 100%;
@@ -492,10 +492,43 @@ scroll navi 영역
         float: none; }
         #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item {
           font-size: 18px;
-          padding-left: 0px; }
+          padding-left: 0px;
+          margin-top: 30px; }
           #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_name {
             font-size: 16px; }
           #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_desc {
-            font-size: 15px; } }
+            font-size: 15px; }
+
+  /* works */
+  #works {
+    padding: 120px 0; }
+    #works .works_inner .works_tit {
+      font-size: 40px; }
+    #works .works_inner .works_content {
+      margin-top: 40px;
+      margin-left: 0px; }
+      #works .works_inner .works_content > article {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 80px; }
+      #works .works_inner .works_content :last-child {
+        padding-bottom: 0; }
+
+  /* contact */
+  #contact {
+    padding: 90px 0px; }
+    #contact .contact_inner .contact_tit .contact_icon {
+      width: 40px; }
+    #contact .contact_inner .contact_info a {
+      font-size: 50px; }
+    #contact .contact_inner .contact_info .contact_txt {
+      font-size: 14px; }
+
+  /* footer */
+  #footer {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    #footer .fusion-row > div {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */

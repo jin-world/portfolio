@@ -499,7 +499,7 @@ scroll navi 영역
 /* PC ----------------------------------------------------------- */
 @media screen and (max-width:1200px){
     #header {padding: 35px 40px;}
-    #visual .visual_inner, #profile .profile_inner, #skills .skills_inner , #works .works_inner, #contact .contact_inner {max-width: 96%;}
+    #visual .visual_inner, #profile .profile_inner, #skills .skills_inner, #works .works_inner, #contact .contact_inner {max-width: 96%;}
 }
 
 /* tablet ----------------------------------------------------------- */
@@ -695,9 +695,9 @@ scroll navi 영역
         padding: 120px 0px;
     
         .skills_inner {
-            padding: 0px 40px 0;
-
             .skills-category-container {
+                padding: 0px 40px 50px;
+
                 .skills-row {
                     .skills_title {
                         float: none;
@@ -713,6 +713,7 @@ scroll navi 영역
                         .skills_list_item {
                             font-size: 18px;
                             padding-left: 0px;
+                            margin-top: 30px;
             
                             .skills-list_name {
                                 font-size: 16px;
@@ -724,6 +725,66 @@ scroll navi 영역
                         }
                     }
                 }
+            }
+        }
+    }
+
+    /* works */
+    #works {
+        padding: 120px 0;
+
+        .works_inner {
+            .works_tit {
+                font-size: 40px;
+            }
+
+            .works_content {
+                margin-top: 40px;
+                margin-left: 0px;
+    
+                >article {
+                    width: 90%;
+                    margin: 0 auto;
+                    padding-bottom: 80px;
+                }
+
+                
+                :last-child {padding-bottom: 0;}
+            }
+        }
+    }
+
+     /* contact */
+     #contact {
+        padding: 90px 0px;
+    
+        .contact_inner {
+            .contact_tit {
+                .contact_icon {
+                    width: 40px;
+                }
+            }
+    
+            .contact_info {
+                a {
+                    font-size: 50px;
+                }
+
+                .contact_txt {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    /* footer */
+    #footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .fusion-row {
+            >div {
+                font-size: 14px;
             }
         }
     }
