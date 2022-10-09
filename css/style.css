@@ -62,7 +62,8 @@ header 영역
           padding-left: 80px;
           color: #fff;
           font-weight: 600;
-          font-size: 18px; }
+          font-size: 18px;
+          font-family: 'Pretendard-Regular', sans-serif; }
 
 /* -----------------------------------------------------------------
 visual 영역
@@ -530,5 +531,121 @@ scroll navi 영역
     padding-bottom: 20px; }
     #footer .fusion-row > div {
       font-size: 14px; } }
+@media screen and (max-width: 499px) {
+  /* 공통 */
+  .dot {
+    width: 8px;
+    height: 8px; }
+
+  /* header */
+  #header {
+    padding: 30px 20px; }
+    #header .wrap .logo a img {
+      width: 100px; }
+    #header .wrap nav ul li a {
+      padding-left: 30px;
+      font-size: 14px; }
+
+  /* visual */
+  #visual .visual_inner .visual_content .visual_text {
+    font-size: 16px; }
+  #visual .visual_inner .visual_content h3 {
+    font-size: 26px;
+    padding: 30px; }
+  #visual .visual_inner .visual_content .tag {
+    font-size: 13px; }
+    #visual .visual_inner .visual_content .tag span {
+      padding: 8px 18px;
+      margin-top: 15px;
+      margin-left: 15px; }
+
+  /*about*/
+  #profile .profile_inner .profile_tit {
+    font-size: 28px; }
+  #profile .profile_inner .profile_wrap {
+    padding: 20px 0 0 0; }
+    #profile .profile_inner .profile_wrap .profile_img img {
+      width: 180px; }
+    #profile .profile_inner .profile_wrap .profile_txt .content-box h2 {
+      font-size: 15px; }
+    #profile .profile_inner .profile_wrap .profile_txt .content-box p {
+      font-size: 14px;
+      line-height: 24px; }
+    #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box dt {
+      font-size: 14px;
+      line-height: 24px; }
+    #profile .profile_inner .profile_wrap .profile_txt .content-box .txt-box dd {
+      font-size: 14px;
+      line-height: 24px; }
+    #profile .profile_inner .profile_wrap .profile_txt #introduce {
+      padding-bottom: 40px; }
+    #profile .profile_inner .profile_wrap .profile_txt #profiletxt {
+      margin-bottom: 40px; }
+
+  /* skills */
+  #skills .skills_inner .skills-category-container {
+    padding: 0px 40px 40px; }
+    #skills .skills_inner .skills-category-container .skills-row .skills_title {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item {
+      font-size: 14px; }
+      #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_name {
+        font-size: 15px;
+        margin-bottom: 0; }
+      #skills .skills_inner .skills-category-container .skills-row .skills_list .skills_list_item .skills-list_desc {
+        font-size: 14px; }
+
+  /* works */
+  #works .works_inner .works_tit {
+    font-size: 28px; }
+  #works .works_inner .works_content > article {
+    width: 85%;
+    padding-bottom: 60px; }
+    #works .works_inner .works_content > article .pic {
+      height: 240px; }
+    #works .works_inner .works_content > article h2 {
+      font-size: 16px; }
+    #works .works_inner .works_content > article p {
+      font-size: 14px;
+      margin-bottom: 20px; }
+    #works .works_inner .works_content > article a {
+      height: 32px;
+      font: bold 12px/32px "Pretendard-Regular"; }
+
+  /* contact */
+  #contact {
+    padding: 80px 0px; }
+    #contact .contact_inner .contact_tit {
+      font-size: 16px;
+      margin-bottom: 30px; }
+      #contact .contact_inner .contact_tit .contact_icon {
+        width: 30px; }
+    #contact .contact_inner .contact_info a {
+      font-size: 36px; }
+
+  /* footer */
+  #footer .fusion-row > div {
+    font-size: 12px; } }
+@media screen and (max-width: 360px) {
+  #header {
+    padding: 20px 10px; }
+    #header .wrap .logo a img {
+      width: 90px; }
+    #header .wrap nav ul li a {
+      padding-left: 20px;
+      font-size: 13px; }
+
+  /*about*/
+  #profile {
+    padding: 90px 0; }
+
+  /* skills */
+  #skills {
+    padding: 90px 0; }
+
+  /* works */
+  #works {
+    padding: 90px 0; } }
 
 /*# sourceMappingURL=style.css.map */
