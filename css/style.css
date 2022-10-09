@@ -443,7 +443,7 @@ scroll navi 영역
   #visual .visual_inner .visual_content .visual_text {
     font-size: 18px; }
   #visual .visual_inner .visual_content h3 {
-    font-size: 34px;
+    font-size: 36px;
     padding: 40px; }
   #visual .visual_inner .visual_content .tag {
     font-size: 14px; }
@@ -472,7 +472,8 @@ scroll navi 영역
         line-height: 26px; }
       #profile .profile_inner .profile_wrap .profile_txt #profiletxt {
         float: none;
-        padding-right: 0px; }
+        padding-right: 0px;
+        margin-bottom: 60px; }
       #profile .profile_inner .profile_wrap .profile_txt #license {
         float: none; }
 
